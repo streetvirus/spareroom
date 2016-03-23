@@ -1,0 +1,84 @@
+/* Last updated date at bottom of feed */
+.twitter_date {
+	font-size:10px;
+	color:#CCC;
+}
+
+
+/* Everything goes inside of this dive */
+.twitter_holder {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-bottom:10px;
+	margin-top:5px;
+	text-align:left;
+	line-height:120%;
+	text-align:left;
+}
+
+/* This clears the floating thumbnails */
+.tweet_clear {
+	clear:both;
+	height:0px;
+}
+
+/* Base styles for display of each tweet */
+.tweet_even, .tweet_odd {
+	border:solid 1px #E1E8EC;
+	padding:5px;
+	margin-bottom:5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/* Mouse over styles for each tweet */
+.tweet_even:hover, .tweet_odd:hover {
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	border-color:#BFCCD7;
+}
+
+/* Even numbered tweets (0, 2, 4, etc) */
+.tweet_even {
+	background-color:#FFF;
+}
+
+/* User thumbnails */
+.tweet_img {
+	float:left;
+	padding-right:5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	width:48px;
+	height:48px;
+}
+
+/* Odd numbered tweets (1, 3, 5, etc) */
+.tweet_odd {
+	background-color:#F2F5F7;
+}
+
+/* Posted from date and location */
+.tweet_source {
+	font-size:10px;
+}
+
+
+/* Base style for links */
+.tweet_odd a:link { color: #06C; }
+.tweet_odd a:visited { color: #06C; }
+.tweet_odd a:hover { color: #039; }
+.tweet_odd a:active { color: #06C; }
+
+
+/* Styles for links in even tweets */
+.tweet_even a:link { color: #06C; }
+.tweet_even a:visited { color: #06C; }
+.tweet_even a:hover { color: #039; }
+.tweet_even a:active { color: #06C; }
+
+/* Styles for links in odd tweets */
+.twitter_holder a:link { color: #06C; }
+.twitter_holder a:visited { color: #06C; }
+.twitter_holder a:hover { color: #039; }
+.twitter_holder a:active { color: #06C; }

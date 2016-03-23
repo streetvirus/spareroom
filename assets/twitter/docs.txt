@@ -1,0 +1,45 @@
+TWITTER PLUGIN OVERVIEW
+This plugin allows you to display a twitter timeline from a specific users
+timeline, or search keywords, mentions, etc and display the results. It also
+includes a cool caching option that will allow you to cache the reults for a
+certain amount of time. The display can be easily customized with CSS.
+
+ONLINE DOCS FOR THIS FUNCTION:
+http://sublantic.com/demos/php_plugin_suite/twitter
+
+***NEED HELP? If you have any problems or questions feel free to contact
+me at mailbox@sublantic.com and I'll do what I have to help. Thanks! ***
+
+FUNCTION : TIMELINE
+	usage format : twitter->timeline(user, limit, thumbnail, cache_override)
+	
+	OPTION 1 : USER (REQUIRED!)
+	Values : Any twitter username
+	
+	OPTION 2 : LIMIT
+	Values : How many tweets to display
+	
+	OPTION 3 : THUMBMNAIL
+	Values : Whether to show users thumbnail imags [ options : thumbnail | no_thumbnail]
+	
+	OPTION 2 : CACHE_OVERRIDE
+	Values : If you want to override the defaul cache location, set a new one here
+	
+
+FUNCTION : SEARCH
+	usage format : twitter->search(term, limit, thumbnail, cache_override, language)
+	
+	OPTION 1 : TERM (REQUIRED!)
+	Values : What you want to search for, can be any text, @username or #hashtag
+	
+	OPTION 2 : LIMIT
+	Values : How many tweets to display
+	
+	OPTION 3 : THUMBMNAIL
+	Values : Whether to show users thumbnail imags [ options : thumbnail | no_thumbnail]
+	
+	OPTION 2 : CACHE_OVERRIDE
+	Values : If you want to override the defaul cache location, set a new one here
+	
+	OPTION 2 : LANGUAGE
+	Values : An ISO 639-1 language code if you want to use a language other than english

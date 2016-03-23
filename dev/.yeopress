@@ -1,0 +1,21 @@
+{
+	"wpVer": "4.0",
+	"url": "http://spareroomhollywood.dev",
+	"tablePrefix": "wp_",
+	"dbHost": "localhost",
+	"dbName": "spareroom_dev",
+	"dbUser": "spareroom",
+	"dbPass": "ZtKPb2y6pFQqVCR",
+	"git": true,
+	"submodule": true,
+	"wpDir": "wordpress",
+	"contentDir": "content",
+	"installTheme": true,
+	"themeDir": "spareroom",
+	"themeType": "git",
+	"themeUser": "roots",
+	"themeRepo": "roots-sass",
+	"themeBranch": "master",
+	"customDirs": true,
+	"saltKeys": "define('AUTH_KEY',         ' z8-WWZ9&!OyH=tnVhof qxe-QZXG|Ilp|z/=mV#eJhyvWhw1uk2 s[$wQr*Zv?z');\ndefine('SECURE_AUTH_KEY',  '{)h^}J=Z?Zqu9-!67+;WMIWfL&x&;m#XJ:puW|9tX@ly@e{*&9|j3:pD.I_*h8.n');\ndefine('LOGGED_IN_KEY',    'U85.+O|[H@s4ku_4j?Cok~4>q,)B8o:__|6qp>P?7]+f`}zn_&0jy,tpq4 /fKR(');\ndefine('NONCE_KEY',        ' n(ve5T OLW%OY;:@>JLN3epI0RgskF5X| `;<7/Imb!y4.+o|CYO)Vqi;|{|#h)');\ndefine('AUTH_SALT',        '|g?.S@()hqBx`Pnh<T=S}]lA%805agm5+@x)}|f38=p-Ev}P7po%_vH+1E6-zh+~');\ndefine('SECURE_AUTH_SALT', '%Hc,*||rs9}^6pIM2y)`4=Pz`W(wZzPc+*mSNB-a#9y%wyWja<B7NU3;n(|}%!Ki');\ndefine('LOGGED_IN_SALT',   ']g}+/7+gz>XE}+TBRL=KaDQ-1e7C=>ppD-(GzF)PtRP^W/7${QSLjURsY8JDGvDC');\ndefine('NONCE_SALT',       'dwaiW)-i8e+2}|e{p={z TWCp#%+X-Wrqw:bR6A,Oa|uZ9v][|x+|ir-Jz4g7&&T');\n"
+}

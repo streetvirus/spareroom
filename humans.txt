@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Corey Matthew Capetillo -- Development
+    Sophea Khem -- Design
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, SASS
+    jQuery, Modernizr, Bootstrap
+    Photshop, Illustrator, Coda 2, Git Tower, CodeKit

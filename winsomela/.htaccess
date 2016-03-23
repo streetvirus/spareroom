@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^winsomela.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.winsomela.com [NC]
+RewriteRule ^(.*)$ http://eatwinsome.com/$1 [L,R=301,NC]
