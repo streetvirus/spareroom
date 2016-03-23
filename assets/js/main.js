@@ -1,15 +1,19 @@
 $(function(){
-	$('#landing,#carousel,#carousel .item,#carousel .item img').css({'height':(($(window).height())-(113*1.8))+'px'});
 
-	$(window).resize(function(){
-	    $('#landing,#carousel,#carousel .item,#carousel .item img').css({'height':(($(window).height())-(113*1.8))+'px'});
-	});
+	var $window = $(window);
+
+	function onResize(){
+		$('#landing, #carousel, #carousel .item, #carousel .item img').css({
+			'height': ( $window.height() - (113*1.8) ) + 'px'
+		});
+	};
+
+	$window.on( 'resize', onResize )
+	$window.trigger('resize');
 
 	$('#carousel').carousel();
 
 	$.localScroll();
-
-	var object = $('.preview');
 
 	if(Modernizr.touch){
 		$('.excerpt').addClass('visible');
@@ -36,11 +40,24 @@ $(function(){
 		arrows		: true
 	});
 
-	$('.instagram').spectragram('getUserFeed',{
-		max: 1,
-		query: 'SpareRoomHwood',
-		size: 'standard'
-	});
+  new Instafeed({
+      get: 'user',
+      userId: 9458396, // SpareRoomHwood
+      limit: 1,
+      accessToken: '9458396.8377d1c.7f0862297bc34105a0e47f43100a0b58',
+      clientId: '8377d1c8510c47ae862068603ca40cd1',
+      mock: true,
+      before: function(){},
+      error: function(){
+      	//
+    	},
+      success: function(resp){
+      	var d = resp.data[0];
+      	$('.instagram').append(
+      		"<a target='_blank' href='" + d.link + "'><img src='" + d.images.standard_resolution.url + "'></img></a>"
+      	)
+      }
+	}).run();
 
 
 //	Image Rotation for Gallery
