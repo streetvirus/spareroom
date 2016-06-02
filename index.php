@@ -197,18 +197,18 @@
 								</style>
 								<div class="span7 card card-calendar" id="calendar">
 									<!--img src="media/August-2.jpg" alt="Calendar" -->
-									<img src="media/TIKI_2016.jpg" alt="Calendar" />
+									<img src="media/TIKI_June_2016.jpg" alt="Calendar" />
 									<!-- <h2>Calendar</h2> -->
 									<div class="excerpt span7">
-										<a href="media/TIKI_2016.jpg" class="fancybox" rel="calendar-flyers" style="cursor:pointer;">
+										<a href="media/TIKI_June_2016.jpg" class="fancybox" rel="calendar-flyers" style="cursor:pointer;">
 											<h4>2016</h4>
 											<h2>EVENTS</h2>
 											<p>Click to View</p>
 										</a>
 									</div>
 								</div>
-                <a href="media/TIKI_May2016.jpg" class="fancybox" rel="calendar-flyers" style="display:none;"></a>
 								<?php /*
+                <a href="media/TIKI_May2016.jpg" class="fancybox" rel="calendar-flyers" style="display:none;"></a>
                 <a href="media/08-20-2015.jpeg" class="fancybox" rel="calendar-flyers" style="display:none;"></a>
                 <a href="media/08-27-2015.jpeg" class="fancybox" rel="calendar-flyers" style="display:none;"></a>
                 <a href="media/08-31-2015.jpeg" class="fancybox" rel="calendar-flyers" style="display:none;"></a>
