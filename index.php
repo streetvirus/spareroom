@@ -200,7 +200,7 @@
 									<img src="media/TIKI_June_2016.jpg" alt="Calendar" />
 									<!-- <h2>Calendar</h2> -->
 									<div class="excerpt span7">
-										<a href="media/TIKI_June_2016.jpg" class="fancybox" rel="calendar-flyers" style="cursor:pointer;">
+										<a href="media/TIKI_July_2016.jpg" class="fancybox" rel="calendar-flyers" style="cursor:pointer;">
 											<h4>2016</h4>
 											<h2>EVENTS</h2>
 											<p>Click to View</p>
