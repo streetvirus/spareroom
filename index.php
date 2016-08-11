@@ -177,7 +177,7 @@
 									<img src="media/menu-graphic.png" alt="Fall Menu">
 									<!-- <h2>Menu</h2> -->
 									<div class="excerpt span7">
-										<a href="media/cocktail-menu.pdf" target="_blank">
+										<a href="media/Menu_Main_Summer_Mechanical_WEB.pdf" target="_blank">
 											<!-- <h4>View Our New Seasonal Items</h4> -->
 											<h2>Menu</h2>
 											<!-- <p>Winter 2015 Menu</p> -->
