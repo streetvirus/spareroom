@@ -159,6 +159,21 @@
 						<a class="OT_ExtLink" href="http://www.opentable.com/single.aspx?rid=116770&restref=116770">Guns & Butter at The Spare Room Hollywood Reservations</a>
 					</div>
 					*/ ?>
+
+    <div class="row">
+    <div class="span12" id="goods" style="margin-bottom: 20px;">
+    <h3 style="text-align: center;">Goods</h3>
+
+    <style>
+    .shopify-buy-frame {
+                                  
+    margin: 0 auto;                                }
+    </style>
+
+<?php include("madlibs4.php"); ?>
+</div>
+</div>
+
 					<div class="row card-holder">
 						<div class="span12 align-center" id="links">
 							<div class="row">
@@ -174,10 +189,10 @@
 									</div>
 								</div>
 								<div class="span7 card card-menu" id="menu">
-									<img src="media/menu-graphic.png" alt="Fall Menu">
+									<img src="media/menu-graphic.png" alt="Winter Menu">
 									<!-- <h2>Menu</h2> -->
 									<div class="excerpt span7">
-										<a href="media/Menu_Main_Summer_Mechanical_WEB.pdf" target="_blank">
+										<a href="media/2016_winter_menu.pdf" target="_blank">
 											<!-- <h4>View Our New Seasonal Items</h4> -->
 											<h2>Menu</h2>
 											<!-- <p>Winter 2015 Menu</p> -->
@@ -213,28 +228,13 @@
                 <a href="media/08-27-2015.jpeg" class="fancybox" rel="calendar-flyers" style="display:none;"></a>
                 <a href="media/08-31-2015.jpeg" class="fancybox" rel="calendar-flyers" style="display:none;"></a>
                 */ ?>
-       					
-       					<?php
-       						/*
-									<div class="span12 card card-goods" id="goods">
-										<img src="media/fraggle_cards.jpg" alt="Fraggle Rock Cards for Sale">
-										<!-- <h2>Goods</h2> -->
-										<div class="excerpt span5">
-											<a href="http://shop.spareroomhollywood.com/products/fraggle-cards" target="_blank">
-												<h4>Fraggle Rock<br>+<br>The Spare Room</h4>
-												<h2>Goods</h2>
-												<p>Visit Our Store</p>
-											</a>
-										</div>
-									</div>
-									*/
-								?>
+
 							</div>
 						</div>
 					</div><!-- #links -->
 					<div class="row gallery-holder">
 						<div class="span12 align-center" id="gallery">
-							<h3>Gallery</h3>
+              <h3>Gallery</h3>
 							<div class="row gallery">
 								<div class="span4">
 									<div class="row">
@@ -320,7 +320,3 @@
 		</div><!-- #wrapper -->
 
 <?php include('includes/footer.php'); ?>
-
-
-
-

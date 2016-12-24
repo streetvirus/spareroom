@@ -40,4 +40,4 @@ July 19th from 10p-2a https://t.co/OTN8fnLBKL<br /><span class="tweet_source">Po
 
 </td></tr><tr><td><div id="tweet_735333746304516096" class="tweet_even">RT <a class="$class" href="http://twitter.com/timeoutla">@timeoutla</a>: The winners of the 2016 Time Out Los Angeles Bar Awards https://t.co/MQUvD0BGpp <a class="$class" href="http://twitter.com/#!/search?q=%23timeoutbarawards">#timeoutbarawards</a> https://t.co/4lUcyYAJEx<br /><span class="tweet_source">Posted <a href="http://twitter.com/#!/SpareRoomHwood/status/735333746304516096">May 24, 2016</a> from <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a></span><div class="tweet_clear">&nbsp;</div></div>
 
-</td></tr><tr><td class="twitter_date"><small>Last updated Dec 01 @ 1:58 pm pst</small></tr></td>
+</td></tr><tr><td class="twitter_date"><small>Last updated Dec 23 @ 5:34 pm pst</small></tr></td>
